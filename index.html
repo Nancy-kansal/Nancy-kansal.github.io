@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="nancy.css">
+<title>SmartServ </title>
+</head>
+<body>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <img src="logo1.png" alt="" class="imgStyle">
+            <!-- <p>Please enter your credentials to login.</p> -->
+          </div>
+        </div>
+        <form class="login-form">
+          <input id="email" type="email" placeholder="Username"/>
+          <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[A-Z]).{8,}" title="Must contain @,at least one number and one uppercase and at least 8 or more characters" required/>
+          <button id="validateButton">Login</button>
+          <p class="message"><a>Forgot your Password?</a></p>
+        </form>
+      </div>
+    </div>
+    <script src="/valid.js"></script>
+
+</body>
+</html>
